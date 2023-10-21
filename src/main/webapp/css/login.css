@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+@IMPORT url("css3.css");
+h1{
+	text-align: center;
+	padding: 10px;
+	margin-left: 50px;
+	margin-right: 150px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body { 
+	position: relative;
+	background:#B6D0E2 , repeat-x;
+	width: 120%;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+
+#container #content {
+	clear: both;
+	float: none;
+	width: 70%;
+	margin: 50px auto;
+	height: 100%;
+	
+}
+
+#container p {
+	clear: both;
+	float: none;
+	width: 100%;
+	margin: auto;
+}
+
+p.main label {
+	float: left;
+	padding: 0px;
+	display: inline;
+	margin-left: 10px;
+	font-size: 13px;
+	color: #000;
+	margin-right: 10px;
+	
+}
+
+p.main input {
+	background: url('../assets/input.png') 0 0 repeat-x;
+	border: 1px solid #d3d3d3;
+	color: #555;
+	padding: 5px;
+	float: left;
+	width: 200px;
+	
+}
+
+input.login {
+	float: right;
+	padding: 3px 10px 3px 10px;
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+	border: 1px solid #555;
+	background: url('../assets/rep1.png') 50% 50% repeat-x;
+	display: inline;
+	margin-right: 5px;
+	
+}
+
+p.space {
+	padding-top: 5px;
+	width:100%;
+}
+
+#content p {
+	clear: both;
+	float: none;
+	width: 100%;
+}
+
+span{
+	color:red;
+	font-size: 18px;
+	font-weight: bolder;
+}
